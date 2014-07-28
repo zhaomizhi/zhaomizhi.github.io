@@ -8,7 +8,7 @@ url:              http://xiaoxiaozhao.net
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Xiaoxiao Zhao
   avatar:         avatar.jpg
   bio:            "Xiaoxiao. IS student, web developer. Big big fan of cats. Love cooking and traveling. Buddhist "
   email:          zxxaki@gmail.com
@@ -29,15 +29,6 @@ google_analytics:
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
