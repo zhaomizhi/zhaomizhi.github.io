@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
+title: About me
 tags: [Jekyll, theme, modern, minimal, responsive]
 image:
   feature: abstract-5.jpg
@@ -10,7 +10,6 @@ image:
 share: true
 ---
 
-## About me
 
 Hi.
 My name is Xiaoxiao Zhao. I like web technology and writing.
