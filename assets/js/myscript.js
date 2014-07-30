@@ -11,7 +11,7 @@ $(document).ready(function() {
 			}
 
 			$("#backbutton").click(function(event){
-				event.preventDefault();
+				
 				$('body').animate({scrollTop : 0 } , 1000);
 				return false;
 			});
