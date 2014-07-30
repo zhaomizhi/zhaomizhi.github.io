@@ -5,7 +5,7 @@
 	height: 48px;
 	width: 48px;
 	background: none;
-	outline: 0;
+	outline: 0;border: 0;
 	box-shadow: none;
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
