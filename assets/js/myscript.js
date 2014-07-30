@@ -10,11 +10,12 @@ $(document).ready(function() {
 				$("#backbutton").fadeOut("slow");
 			}
 
+		});
+
 			$("#backbutton").click(function(event){
 				
 				$('body').animate({scrollTop : 0 } , 1000);
 				return false;
 			});
-		});
 	});
 });
