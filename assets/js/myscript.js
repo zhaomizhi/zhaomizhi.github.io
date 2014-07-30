@@ -9,6 +9,11 @@ $(document).ready(function() {
 			}else{
 				$("#backbutton").fadeOut("slow");
 			}
+
+			$("#backbutton").click(function(){
+				$('body').animate({scrollTop : 0 } , 1000);
+				//return false;
+			});
 		});
 	});
 });
