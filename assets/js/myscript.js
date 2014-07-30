@@ -10,7 +10,8 @@ $(document).ready(function() {
 				$("#backbutton").fadeOut("slow");
 			}
 
-			$("#backbutton").click(function(){
+			$("#backbutton").click(function(event){
+				event.preventDefault();
 				$('body').animate({scrollTop : 0 } , 1000);
 				return false;
 			});
