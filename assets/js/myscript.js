@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 			$("#backbutton").click(function(){
 				$('body').animate({scrollTop : 0 } , 1000);
-				//return false;
+				return false;
 			});
 		});
 	});
