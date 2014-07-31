@@ -10,7 +10,7 @@
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
 
-#entry-header { position: fixed;}
+.entry-header { position: fixed;}
 
 #maintop {
 	position: relative;
