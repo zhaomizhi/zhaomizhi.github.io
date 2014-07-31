@@ -20,11 +20,11 @@ $(document).ready(function() {
 	});
 
 var heig = $("#entry-header");
-var headheight = $("#entry-header").height();
-console.log(headheight);
-$("#entry-header").css("posistion","fixed");
-$("#main").css("position","relative");
 
-$("#main").css("font-size","10px");
+console.log(headheight);
+heig.css("posistion","fixed");
+$("#main").css("position","relative");
+var mainmian = $("#main");
+$("#main").css("font-size","400px");
 
 });
