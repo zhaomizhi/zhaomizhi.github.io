@@ -13,3 +13,8 @@ share: true
 ---
 
 This article will describe the reason why I use jekyll to build this blog.
+
+Changes:
+1, add a back button.
+2, personal information
+3, make the header picture unmoved while scrolltop
