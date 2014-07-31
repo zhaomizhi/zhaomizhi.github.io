@@ -22,9 +22,9 @@
 }
 
 .header-title-wrap{
-	position: fixed;
+	position: absolute; 
 }
 
-.header-title{
-	text-align: center;
-}
+
+
+.header-title{text-align: center}
