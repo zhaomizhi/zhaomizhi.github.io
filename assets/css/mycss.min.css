@@ -10,10 +10,11 @@
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
 
-.entry-image { position: fixed; height: 600px ;top: 0; width: 100%}
+.entry-image { left: 0 ;position: fixed; height: 600px ;top: 0; width: 100%}
 #background-image{
 	height: auto; width: 100%; position: relative;
 }
+
 #maintop {
 	position: relative;
 	top: 500px;
