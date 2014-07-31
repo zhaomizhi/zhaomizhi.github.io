@@ -21,8 +21,8 @@ $(document).ready(function() {
 
 var headheight = $("#entry-header").height();
 $("#entry-header").css("posistion","fixed");
-$("#entry-header").html('sss');
 $("#main").css("position","relative");
+console.log($("#entry-header").height());
 $("#main").css("font-size","10px");
 
 });
