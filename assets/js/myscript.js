@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 var heig = $("#entry-header");
 
-console.log(headheight);
+
 heig.css("posistion","fixed");
 $("#main").css("position","relative");
 var mainmian = $("#main");
