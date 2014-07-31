@@ -20,9 +20,10 @@ $(document).ready(function() {
 	});
 
 var headheight = $("#entry-header").height();
+console.log(headheight);
 $("#entry-header").css("posistion","fixed");
 $("#main").css("position","relative");
-console.log($("#entry-header").height());
+
 $("#main").css("font-size","10px");
 
 });
