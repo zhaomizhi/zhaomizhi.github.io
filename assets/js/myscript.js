@@ -14,8 +14,16 @@ $(document).ready(function() {
 
 			$("#backbutton").click(function(event){
 				
-				$('body').animate({scrollTop : 0 } , 1000);
+				$('body').animate({scrollTop : 0 } , 600);
 				return false;
 			});
 	});
+
+var headheight = $("#entry-header").height();
+$("#entry-header").css("posistion","fixed");
+$("#main").css({
+	posistion: 'relative',
+	top: 'headheight'
+});
+
 });
