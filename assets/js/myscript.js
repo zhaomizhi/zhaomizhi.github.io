@@ -20,9 +20,9 @@ $(document).ready(function() {
 var heig = $("#entry-header");
 
 
-heig.css("posistion","fixed");
+/*heig.css("posistion","fixed");
 var mainmian = $("#main");
 $("#maintop").css("position","relative");
-$("#maintop").css("top","400px");
+$("#maintop").css("top","400px");*/
 
 });

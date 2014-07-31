@@ -9,3 +9,15 @@
 	box-shadow: none;
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
+
+#entry-header { position: fixed;}
+
+#maintop {
+	position: relative;
+	top: 400px;
+}
+
+/*heig.css("posistion","fixed");
+var mainmian = $("#main");
+$("#maintop").css("position","relative");
+$("#maintop").css("top","400px");*/
