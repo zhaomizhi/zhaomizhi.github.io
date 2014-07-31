@@ -2595,7 +2595,7 @@ body {
 .entry-content p>a:hover,.entry-content li>a:hover {
     border-bottom-style: solid}
 .entry-header {
-    /*position: relative;*/
+    position: fixed;
     width: 100%;
     overflow: hidden}
 .header-title {
