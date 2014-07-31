@@ -21,9 +21,8 @@ var heig = $("#entry-header");
 
 
 heig.css("posistion","fixed");
-$("#entry-header").css("position","relative");
 var mainmian = $("#main");
-$("#maintop").css("position","fixed");
+$("#maintop").css("position","relative");
 $("#maintop").css("top","400px");
 
 });
