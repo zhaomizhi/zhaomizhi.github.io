@@ -17,15 +17,13 @@
 
 /*--- desktop and lanptop ----*/
 
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
+
 #maintop {
 	position: relative;
 	top: 600px;
 	background-color: #e8e8e8
 }
-}
+
 
 	
 
