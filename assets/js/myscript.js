@@ -9,9 +9,7 @@ $(document).ready(function() {
 			}else{
 				$("#backbutton").fadeOut("slow");
 			}
-
 		});
-
 			$("#backbutton").click(function(event){
 				
 				$('body').animate({scrollTop : 0 } , 600);
@@ -25,6 +23,7 @@ var heig = $("#entry-header");
 heig.css("posistion","fixed");
 $("#main").css("position","relative");
 var mainmian = $("#main");
-$("#main").css("font-size","400px");
+$("#main").css("position","fixed");
+$("#main").css("top","400px");
 
 });
