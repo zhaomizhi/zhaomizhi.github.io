@@ -839,7 +839,7 @@ ol.CodeRay li {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-/*  position: static;*/
+ position: static;
   width: auto;
   height: auto;
   margin: 0;
