@@ -19,6 +19,7 @@ $(document).ready(function() {
 			});
 	});
 
+var heig = $("#entry-header");
 var headheight = $("#entry-header").height();
 console.log(headheight);
 $("#entry-header").css("posistion","fixed");
