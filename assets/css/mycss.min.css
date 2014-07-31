@@ -22,7 +22,7 @@
 }
 
 .header-title-wrap{
-	position: absolute; left: 30%;top: 30%;
+	position: fixed; left: 30%;top: 30%;
 }
 
 
