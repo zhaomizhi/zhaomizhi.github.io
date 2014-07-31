@@ -22,9 +22,8 @@
 }
 
 .header-title-wrap{
-	position: absolute; 
+	position: absolute; left: 30%;top: 30%;
 }
 
 
 
-.header-title{text-align: center}
