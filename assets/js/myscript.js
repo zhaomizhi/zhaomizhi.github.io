@@ -31,9 +31,7 @@ $(function(){
    
     $(window).resize(function(){
     var len = $(".entry-image").height();
-        console.log(len);
-        $("#maintop").css("top",len);
-
+        $("#maintop").css("top",len - 50);
     });
 });
 
