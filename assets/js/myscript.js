@@ -2,7 +2,7 @@ function resizeHeader(){
 	var len = $(".entry-image").height();
    $("#maintop").css("top",len - 70);
 }
-
+resizeHeader();
 $(document).ready(function() {
 	$("#backbutton").hide();
 
@@ -27,7 +27,10 @@ var mainmian = $("#main");
 $("#maintop").css("position","relative");
 $("#maintop").css("top","400px");*/
 
-  resizeHeader();
+	var len = $(".entry-image").height();
+	console.log(len);
+	console.log("#maintop");
+   $("#maintop").css("top",len - 70);
 
 });
 
