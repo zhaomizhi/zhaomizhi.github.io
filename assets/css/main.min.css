@@ -2668,7 +2668,7 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
-    min-height: 400px;
+/*    min-height: 400px;*/
     overflow: hidden}
 .entry-image:after {
     position: absolute;
