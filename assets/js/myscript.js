@@ -17,7 +17,8 @@ $(document).ready(function() {
 			});
 	});
 
-var heig = $("#entry-header");
+var heig = $(".entry-header");
+console.log(heig);
 
 
 /*heig.css("posistion","fixed");

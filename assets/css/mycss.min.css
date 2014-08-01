@@ -1,3 +1,4 @@
+/*--- desktop and lanptop ----*/
 #backbutton {
 	position: fixed;
 	bottom: 30px;
@@ -10,22 +11,15 @@
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
 
-.entry-image { left: 0 ;position: fixed; height: 600px ;top: 0; width: 100%}
+.entry-image { left: 0 ;position: fixed; height: 200% ;top: 0; width: 100%}
+
 #background-image{
 	height: auto; width: 100%; position: relative;
 }
 
-/*--- desktop and lanptop ----*/
-
-
-#maintop {
-	position: relative;
-	top: 600px;
-	background-color: #e8e8e8
+.entry-header{
+	height: 30%;
 }
-
-
-	
 
 .header-title-wrap{
 	position: fixed; left: 30%;top: 20%;
@@ -33,3 +27,8 @@
 
 
 
+#maintop {
+	position: relative;
+	top: 600px;
+	background-color: #e8e8e8
+}	
