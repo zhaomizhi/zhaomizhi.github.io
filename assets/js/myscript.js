@@ -33,11 +33,8 @@ $("#maintop").css("position","relative");
 $("#maintop").css("top","400px");*/
 
 	var len = $(".entry-image").height();
-	console.log(len);
-	
-
    $("#maintop").css("top",len - 70);
-   console.log($("#maintop").position().top);
+
 
 });
 
