@@ -1,8 +1,5 @@
-function resizeHeader(){
-	var len = $(".entry-image").height();
-   $("#maintop").css("top",len - 70);
-}
-resizeHeader();
+
+
 $(document).ready(function() {
 	$("#backbutton").hide();
 
@@ -19,6 +16,14 @@ $(document).ready(function() {
 				
 				$('body').animate({scrollTop : 0 } , 600);
 				return false;
+			});
+
+		$(window).load(function() {
+		/* Act on the event */
+			resizeHeader();
+			});
+		$(window).resize(function(){
+			resizeHeader();
 			});
 	});
 
@@ -39,12 +44,10 @@ $("#maintop").css("top","400px");*/
 
 
 $(function(){
-	$(window).load(function() {
-		/* Act on the event */
-		resizeHeader();
-	});
-    $(window).resize(function(){
-    resizeHeader();
-    });
+	
 });
 
+function resizeHeader(){
+	var len = $(".entry-image").height();
+   $("#maintop").css("top",len - 70);
+}
