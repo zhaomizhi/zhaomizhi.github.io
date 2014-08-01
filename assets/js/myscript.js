@@ -17,7 +17,7 @@ $(document).ready(function() {
 			});
 	});
 
-var heig = $(".entry-header");
+var heig = $(".entry-header").height();
 console.log(heig);
 
 
