@@ -19,6 +19,10 @@ $(document).ready(function() {
 
 var heig = $(".entry-image").height();
 console.log(heig);
+console.log($(".entry-image"));
+
+
+
 
 
 /*heig.css("posistion","fixed");
@@ -27,3 +31,15 @@ $("#maintop").css("position","relative");
 $("#maintop").css("top","400px");*/
 
 });
+
+
+$(function(){
+   
+    $(window).resize(function(){
+    var len = $("#entry-image").height();
+        console.log(len);
+        $("#maintop").css("top",len);
+
+    });
+});
+
