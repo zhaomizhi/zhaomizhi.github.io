@@ -37,8 +37,12 @@ $("#maintop").css("top","400px");*/
 });
 
 
+
 $(function(){
-   
+	$(window).load(function() {
+		/* Act on the event */
+		resizeHeader();
+	});
     $(window).resize(function(){
     resizeHeader();
     });
