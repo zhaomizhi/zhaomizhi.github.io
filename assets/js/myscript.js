@@ -1,3 +1,8 @@
+function resizeHeader(){
+	var len = $(".entry-image").height();
+   $("#maintop").css("top",len - 70);
+}
+
 $(document).ready(function() {
 	$("#backbutton").hide();
 
@@ -22,14 +27,15 @@ var mainmian = $("#main");
 $("#maintop").css("position","relative");
 $("#maintop").css("top","400px");*/
 
+  resizeHeader();
+
 });
 
 
 $(function(){
    
     $(window).resize(function(){
-    var len = $(".entry-image").height();
-        $("#maintop").css("top",len - 70);
+    resizeHeader();
     });
 });
 
