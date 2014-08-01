@@ -18,12 +18,14 @@
 }
 
 
-/*.header-title-wrap{
-	position: fixed; left: 30%;top: 20%;
-}*/
 
 #maintop {
 	position: relative;
 	top: 600px;
 	background-color: #e8e8e8
 }	
+
+
+/*.header-title-wrap{
+	position: fixed; left: 30%;top: 20%;
+}*/
