@@ -30,7 +30,8 @@
 /*.header-title{
 	height: auto;
 }*/
-/*.header-title-wrap{
+
+.header-title-wrap{
 	position: fixed; left: 30%;top: 20%;
-}*/
+}
 
