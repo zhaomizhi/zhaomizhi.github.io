@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2014-07-26 23:58:28
 categories: jekyll update
 image:
-  feature: abstract-1.jpg
+  feature: abstract-luguhu.JPG
 comment: true
 share: true
 ---
