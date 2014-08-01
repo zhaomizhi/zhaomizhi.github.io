@@ -17,8 +17,6 @@ $(document).ready(function() {
 			});
 	});
 
-
-
 /*heig.css("posistion","fixed");
 var mainmian = $("#main");
 $("#maintop").css("position","relative");
@@ -31,7 +29,7 @@ $(function(){
    
     $(window).resize(function(){
     var len = $(".entry-image").height();
-        $("#maintop").css("top",len - 50);
+        $("#maintop").css("top",len - 70);
     });
 });
 
