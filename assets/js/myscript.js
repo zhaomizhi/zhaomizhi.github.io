@@ -29,9 +29,10 @@ $("#maintop").css("top","400px");*/
 
 	var len = $(".entry-image").height();
 	console.log(len);
-	console.log($("#maintop").position().top);
+	
 
    $("#maintop").css("top",len - 70);
+   console.log($("#maintop").position().top);
 
 });
 
