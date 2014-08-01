@@ -14,7 +14,7 @@
 .entry-image { left: 0 ;position: fixed; height:auto; ;top: 0; width: 100%}
 
 #background-image{
-	height: auto; width: 100%; position: relative; max-width: 100%;
+	height: auto; width: 100%; position: relative; 
 }
 
 
@@ -25,7 +25,9 @@
 	background-color: #e8e8e8
 }	
 
-
+.header-title{
+	height: auto;
+}
 /*.header-title-wrap{
 	position: fixed; left: 30%;top: 20%;
 }*/
