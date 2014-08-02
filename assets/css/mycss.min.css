@@ -34,11 +34,21 @@
 .feature .entry-header .header-title{
 	position: fixed; 
 	text-align: center; 
-	display: block;}
+	display: block;
+	height: 600px;
 
-h1.header-title{
+}
+
+.header-title h1{
 	text-align: center;
 	position: static;
     font-weight: 100;
-    display: block;}
+    font-style: normal;
+    display: block;
+    top: auto;
+    text-shadow: none;
+    font-size: 50px;
+    
+
+	}
 
