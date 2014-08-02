@@ -47,5 +47,5 @@ $(function(){
 function resizeHeader(){
 	var len = $(".entry-image").height();
    $("#maintop").css("top",len - 70);
-   $("..header-title").height(len);
+   $(".header-title").height(len);
 }
