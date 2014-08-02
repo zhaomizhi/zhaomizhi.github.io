@@ -31,7 +31,7 @@
 	height: auto;
 }*/
 
-.header-title.entry-header.feature{
+.feature .entry-header .header-title{
 	position: fixed; 
 	text-align: center; 
 	display: block;}
