@@ -40,9 +40,6 @@ $("#maintop").css("top","400px");*/
 
 
 
-$(function(){
-	
-});
 
 function resizeHeader(){
 	var len = $(".entry-image").height();
