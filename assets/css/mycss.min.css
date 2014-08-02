@@ -31,5 +31,14 @@
 	height: auto;
 }*/
 
-h1{text-align: center}
+.header-title{
+	position: fixed; 
+	text-align: center; 
+	display: block;}
+
+h1.header-title{
+	text-align: center;
+	position: static;
+    font-weight: 100;
+    display: block;}
 
