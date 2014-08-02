@@ -48,7 +48,25 @@
     left: 30%;
     text-shadow: none;
     font-size: 50px;
-
-
 	}
+
+
+
+.home-page { 
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+.unmoved-header{ 
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	background-size: cover;
+}
 
