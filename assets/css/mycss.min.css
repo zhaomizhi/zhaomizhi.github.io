@@ -40,7 +40,7 @@
 
 .header-title h1{
 	text-align: center;
-	position: static;
+	position: absolute;
     font-weight:100;
     font-style: normal;
     display: block;
