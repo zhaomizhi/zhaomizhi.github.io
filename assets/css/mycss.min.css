@@ -35,6 +35,7 @@
 	position: fixed; 
 	text-align: center; 
 	display: block;
+	
 }
 
 .header-title h1{
@@ -43,11 +44,10 @@
     font-weight:100;
     font-style: normal;
     display: block;
-    top: auto;
+    top: 35%;
     text-shadow: none;
     font-size: 50px;
-	vertical-align: baseline;
-	line-height: 50px; 
+
 
 	}
 
