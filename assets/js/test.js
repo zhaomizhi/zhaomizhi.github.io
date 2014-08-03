@@ -16,11 +16,11 @@ $(document).ready(function() {
 function resizeHeader(){
 	var heightImage = $(".unmoved-header").height();
 	if(heightImage <= 500){
-		$("#homecontent").css('top', heightImage -10 );
+		$("#homecontent").css('top', heightImage );
 	}else{
-		$("#homecontent").css('top', 490);
+		$("#homecontent").css('top', 500);
 	}
 	$("#fittext1").css('top', '35%');
-	var widthContent = $("#homecontent").width() + 20;
-	$("#homecontent").width(widthContent);
+	/*var widthContent = $("#homecontent").width() + 20;
+	$("#homecontent").width(widthContent);*/
 }
