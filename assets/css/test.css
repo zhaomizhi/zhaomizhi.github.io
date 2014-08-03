@@ -60,7 +60,10 @@ div#homecontent{
 	height: auto;
 	background-color:  #e8e8e8;
 	z-index: 2;
-	position: relative;
-	
-	
+	position: relative;	
 }
+
+#homecontent article{
+	width: 50%;
+}
+
