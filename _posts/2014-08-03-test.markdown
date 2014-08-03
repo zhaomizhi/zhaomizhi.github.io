@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2014-07-26 23:58:28
+categories: jekyll update
+image:
+  feature: abstract-1.jpg
+comment: true
+share: true
+---
+This is article from designcode.io website. I use it as page content to test the website layout.
+Last year, Apple completely revamped their design language for the modern users. It is now much simpler, allowing designers to focus on animation and function rather than intricate visual details.
+
+You'll learn how to design for iOS 7. Because the new OS focuses on functional colors, beautiful typography and delightful animations, we'll dive deep into all the techniques and tools that are available to us. You can also find a number of resources and UI templates to help on your journey.
