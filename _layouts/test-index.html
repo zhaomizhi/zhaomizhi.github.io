@@ -9,24 +9,24 @@
 
 <body class = "test-index">
 
-
-
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 
 <div class = "homepage">
-<div class = "unmoved-header" style="background-image:url( {{ site.url }}/images/{{ page.image.feature }} );">
-<h1>{{ site.title }}</h1>
-
+<div class = "unmoved-header">
+<h1 id = "fittext1" >{{ site.title }}</h1>
+<img src="{{ site.url }}/images/{{ page.image.feature }}">
 </div>
 
 <div id = "homecontent" role = "main">
 {{ content }}
 </div>
 {% include backbutton.html %}
-</div>
 <footer role="contentinfo">
     {% include footer.html %}
 </footer>
+</div>
+
 
 </body>
+</html>

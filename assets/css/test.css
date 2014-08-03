@@ -1,0 +1,53 @@
+.homepage{
+}
+
+body{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+}
+
+.unmoved-header{
+	width: 100%; 
+	height: auto; 
+	position:fixed; 
+	display: block;
+	left: 0;
+	top: 0;
+	text-align:center;
+}
+
+.unmoved-header img{
+	width: 100%; 
+	height: auto; 
+	position: relative;
+	display: block;
+	z-index: -1;
+	vertical-align: top;
+}
+
+.unmoved-header h1{
+	position: absolute;
+	z-index: 1;
+	height: auto;
+	display: block;
+	margin:auto;
+	width: 100%;
+    vertical-align:middle;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	text-align:center;
+	font-size: 60px;
+	color: white;
+
+}
+
+div#homecontent{
+	display: block;
+	height: auto;
+	background-color:  #e8e8e8;
+	z-index: 2;
+	position: relative;
+	
+	left: -10px;
+}
