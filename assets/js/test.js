@@ -59,7 +59,7 @@ function resizePageContent(){
 
 function footerPosition(){
 	var heightcontent = $("#homecontent").height();
-	var heightpercent = (22 - heightcontent)/heightcontent;
+	var heightpercent = ((22 - heightcontent)/heightcontent)/100;
 	$('.footer-wrapper').css('bottom', heightpercent);
 
 }
