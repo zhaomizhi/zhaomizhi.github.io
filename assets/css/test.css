@@ -81,7 +81,8 @@ text-align: center;
 article::after{
 	content: "<hr>";
 	width: 15%;
-	height: 5%;
+	height: 5px;
 	/*visibility: hidden;*/
+
 }
 
