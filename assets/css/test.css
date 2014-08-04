@@ -78,11 +78,11 @@ article.hentry{
 text-align: center;
 }
 .footer{
-	padding: 10px 0;
+	padding-bottom: 25px;
 }
 
 .entry-content{
-	padding-bottom: 20px;
+	padding: 5px 30px;
 }
 .entry-title{
 	font-weight: normal;
