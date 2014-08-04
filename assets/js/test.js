@@ -6,18 +6,19 @@ $(document).ready(function() {
 		/* Act on the event */
 			resizeHeader();
 			resizePageContent();
-			//footerPosition();
+
 			showHeight();
-	
-			$("#fittext1").fitText(2, { minFontSize: '20px', maxFontSize: '80px' });
+			fontResponsive();
+			
 		});
 
 		$(window).resize(function(){
 			resizeHeader();
 			resizePageContent();
 			showHeight();
-			//footerPosition();
-			$("#fittext1").fitText(2, { minFontSize: '20px', maxFontSize: '80px' });
+			fontResponsive();
+	
+			
 		});
 
 		$(window).scroll(function(){
@@ -67,6 +68,11 @@ function footerPosition(){
 	heightpercent = heightpercent.toString() +  "%";
 
 	$('.footer-wrapper').css('bottom', heightpercent);
+}
+
+function fontResponsive(){
+	$("#fittext1").fitText(2, { minFontSize: '35px', maxFontSize: '90px' });
+	$(".entry-title").fitText(2, { minFontSize: '23px', maxFontSize: '32px' });
 }
 function showHeight(){
 		console.log($(".test-index").height() + "testheight");
