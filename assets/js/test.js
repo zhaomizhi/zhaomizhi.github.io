@@ -6,12 +6,14 @@ $(document).ready(function() {
 		/* Act on the event */
 			resizeHeader();
 			resizePageContent();
+			footerPosition();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
 
 		$(window).resize(function(){
 			resizeHeader();
 			resizePageContent();
+			footerPosition();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
 
@@ -53,4 +55,11 @@ function resizePageContent(){
 		}else{
 		$(".hentry").width('800px');
 		}
+}
+
+function footerPosition(){
+	var heightcontent = $("#homecontent").height();
+	var heightpercent = 22 - heightcontent/heightpercent;
+	$('.footer-wrapper').bottom(heightpercent);
+
 }
