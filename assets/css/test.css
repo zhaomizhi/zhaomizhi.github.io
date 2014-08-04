@@ -12,7 +12,9 @@
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
 
-
+.homepage{
+	height: auto;
+}
 
 body{
 -webkit-background-clip: border-box;
@@ -75,6 +77,5 @@ article.hentry{
 
 .footer-wrapper{
 	position: relative;
-
 }
 
