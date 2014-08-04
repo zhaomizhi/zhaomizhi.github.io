@@ -75,10 +75,10 @@ article.hentry{
 }
 
 .footer , article header{
-text-align: center;
-}
+text-align: center;}
+
 .footer{
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
 
 .entry-content{
