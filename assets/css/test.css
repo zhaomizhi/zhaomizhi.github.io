@@ -73,8 +73,8 @@ article.hentry{
 	background-color: white;
 }
 
-div.footer-wrapper{
-	position: absolute;
-	bottom: 10px;
+.footer-wrapper{
+	display: block;
+	margin: 0 0 0 0;
 }
 
