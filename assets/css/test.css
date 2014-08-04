@@ -82,6 +82,6 @@ article::after{
 	content: "<hr>";
 	width: 15%;
 	height: 5%;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 
