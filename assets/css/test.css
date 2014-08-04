@@ -71,6 +71,10 @@ div#homecontent{
 
 article.hentry{
 	background-color: white;
-	
+}
+
+div.footer-wrapper{
+	position: absolute;
+	top: 0;
 }
 
