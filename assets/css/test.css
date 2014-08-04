@@ -50,7 +50,7 @@ body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	text-align:center;
-	font-size: 60px;
+	font-size: 80px;
 	color: white;
 
 }
@@ -67,5 +67,10 @@ div#homecontent{
 	width: 60%;
 	text-align: center;;
 	margin: 0 auto;
+}
+
+article.hentry{
+	background-color: white;
+	
 }
 
