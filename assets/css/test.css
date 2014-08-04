@@ -15,11 +15,7 @@
 html, body{
 	height: 100%;
 }
-body{
--webkit-background-clip: border-box;
--webkit-background-origin: padding-box;
--webkit-background-size: auto;
-}
+
 
 .unmoved-header{
 	width: 100%; 
