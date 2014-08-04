@@ -9,7 +9,7 @@ $(document).ready(function() {
 			//footerPosition();
 			showHeight();
 	
-			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
+			$("#fittext1").fitText(2, { minFontSize: '20px', maxFontSize: '80px' });
 		});
 
 		$(window).resize(function(){
@@ -17,7 +17,7 @@ $(document).ready(function() {
 			resizePageContent();
 			showHeight();
 			//footerPosition();
-			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
+			$("#fittext1").fitText(2, { minFontSize: '20px', maxFontSize: '80px' });
 		});
 
 		$(window).scroll(function(){
