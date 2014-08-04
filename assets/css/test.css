@@ -74,10 +74,13 @@ article.hentry{
 	height: 40px;
 }
 
-.footer{
+.footer , article header{
 text-align: center;
 }
 
+.entry-content{
+	padding: 5px 25px;
+}
 article::after{
 	content: "<hr>";
 	width: 15%;
