@@ -12,9 +12,17 @@
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
 
-
-
-
+.homepage{
+	height: auto;
+}
+.test-index{
+	height: auto;
+}
+body{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+}
 
 .unmoved-header{
 	width: 100%; 
@@ -56,7 +64,7 @@ div#homecontent{
 	height: auto;
 	background-color:  #e8e8e8;
 	z-index: 2;
-	
+	position: relative;	
 }
 
 #homecontent article{
@@ -68,6 +76,5 @@ div#homecontent{
 article.hentry{
 	background-color: white;
 }
-
 
 
