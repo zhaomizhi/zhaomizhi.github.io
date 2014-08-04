@@ -12,11 +12,8 @@
 	background-image: url(https://raw.githubusercontent.com/zhaomizhi/zhaomizhi.github.io/master/images/ToTop.png);
 }
 
-.homepage{
-	height: auto;
-}
-.test-index{
-	height: auto;
+html, body{
+	height: 100%;
 }
 body{
 -webkit-background-clip: border-box;
