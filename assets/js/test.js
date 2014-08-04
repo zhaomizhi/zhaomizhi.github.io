@@ -6,14 +6,14 @@ $(document).ready(function() {
 		/* Act on the event */
 			resizeHeader();
 			resizePageContent();
-			footerPosition();
+			//footerPosition();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
 
 		$(window).resize(function(){
 			resizeHeader();
 			resizePageContent();
-			footerPosition();
+			//footerPosition();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
 
