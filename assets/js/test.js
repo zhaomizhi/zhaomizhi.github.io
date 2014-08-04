@@ -7,6 +7,7 @@ $(document).ready(function() {
 			resizeHeader();
 			resizePageContent();
 			//footerPosition();
+			showHeight();
 	
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
@@ -14,14 +15,14 @@ $(document).ready(function() {
 		$(window).resize(function(){
 			resizeHeader();
 			resizePageContent();
-		
+			showHeight();
 			//footerPosition();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
 
 		$(window).scroll(function(){
 
-		
+		showHeight();
 			if( $(this).scrollTop() > 100 ) {
 				$("#backbutton").fadeIn("slow");
 			}else{
