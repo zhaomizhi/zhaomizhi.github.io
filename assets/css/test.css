@@ -73,9 +73,10 @@ article.hentry{
 .pagination{
 	height: 40px;
 }
+
 .footer{
 right: 60%;
-font-size: 10px;
+text-align: center;
 }
 
 
