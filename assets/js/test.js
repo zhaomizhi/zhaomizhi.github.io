@@ -5,12 +5,16 @@ $(document).ready(function() {
 		$(window).load(function() {
 		/* Act on the event */
 			resizeHeader();
+			resizePageContent();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
+
 		$(window).resize(function(){
 			resizeHeader();
+			resizePageContent();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
+
 		$(window).scroll(function(){
 
 			if( $(this).scrollTop() > 100 ) {
