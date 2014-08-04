@@ -7,18 +7,21 @@ $(document).ready(function() {
 			resizeHeader();
 			resizePageContent();
 			//footerPosition();
+			console.log($(".test-index").height());
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
 
 		$(window).resize(function(){
 			resizeHeader();
 			resizePageContent();
+			console.log($(".test-index").height());
 			//footerPosition();
 			$("#fittext1").fitText(2, { minFontSize: '10px', maxFontSize: '80px' });
 		});
 
 		$(window).scroll(function(){
 
+			console.log($(".test-index").height());
 			if( $(this).scrollTop() > 100 ) {
 				$("#backbutton").fadeIn("slow");
 			}else{
@@ -63,5 +66,5 @@ function footerPosition(){
 	heightpercent = heightpercent.toString() +  "%";
 
 	$('.footer-wrapper').css('bottom', heightpercent);
-
 }
+
