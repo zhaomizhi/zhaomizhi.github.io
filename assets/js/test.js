@@ -71,8 +71,8 @@ function footerPosition(){
 }
 
 function fontResponsive(){
-	var fit = $("#fittext1");
-	if($("#fittext1") !== undefined){
+
+	if($("#fittext1").length !== 0 ){
 	$("#fittext1").fitText(2, { minFontSize: '35px', maxFontSize: '90px' });
 	$(".entry-title").fitText(2, { minFontSize: '23px', maxFontSize: '32px' });
 	}else{
