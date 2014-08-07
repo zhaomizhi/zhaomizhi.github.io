@@ -147,7 +147,7 @@ div#homecontent{
 	margin: 0 auto;
 }
 
-#post .hentry{
+.test-index .hentry{
 	background-color: white;
 	box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
 	-webkit-border-radius: 3px;
