@@ -30,6 +30,7 @@ h3 a{
 	font-size: 18px;
 }
 
+@media only screen and (min-width: 62.5em){
 #post-header{
 	-webkit-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     -moz-box-shadow: 0 0 1px rgba(34,34,34,0.2);
@@ -39,7 +40,9 @@ h3 a{
 	margin: 20px auto 0px auto;
 	background-color: white;
 	border-radius: 3px;
+}	
 }
+
 #post .entry-content{
 	padding-top: 0px;
 }
