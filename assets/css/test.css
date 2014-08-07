@@ -144,7 +144,7 @@ div#homecontent{
 #homecontent article{
 	width: 60%;
 /*	text-align: center;;*/
-	margin: 0 auto;
+	margin: 20px auto 0;
 }
 
 .test-index .hentry{
