@@ -29,8 +29,18 @@ h3 a{
 	font-weight: normal;
 	font-size: 18px;
 }
+
+#post .hentry:before{
+	background:white;
+    display:block;
+    content:".";
+    font-size:0;
+    box-shadow: 0 0 0 0,0 0px 12px rgba(0,0,0,0.1);
+}
+
+
 /*poset-header---remove the bottom space*/
-#post-header ,#post .entry-content{
+#post-header ,#post .entry-content {
     padding: 20px 15px 0px;
     margin: 40px 2px 0px 2px;
     background-color: #fff;
@@ -75,6 +85,12 @@ h3 a{
     max-width: 800px;
     padding: 50px 80px;
     margin: 0px auto 30px auto}
+#post .hentry:before{
+	width: 640px;
+	height: 30px;
+}
+
+
 }
 
 
@@ -84,20 +100,9 @@ h3 a{
 	padding-top: 0px;
 }
 
-#post-header:after{
-	content: "xx";
-	text-align: center;
-	box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
-
-	padding: 0px 80px;
-	margin: 20px auto 0px auto;
-	background-color: white;
-	border-radius: 3px;
-	display: block;
-	box-sizing: border-box;
-	font-size: 0px;
-	position: absolute;
-
+article.hentry:before{
+	content: ".";
+	width: 
 }
 
 #post{
@@ -105,13 +110,7 @@ h3 a{
 }
 
 
-#post .hentry:before{
-	background:white;
-    display:block;
-    content:".";
 
-    font-size:0;
-}
 
 .unmoved-header{
 	width: 100%; 
