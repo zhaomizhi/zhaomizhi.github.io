@@ -83,10 +83,8 @@ h3 a{
 @media only screen and (min-width: 62.5em) {
 #post-header {
     max-width: 800px;
-    padding: 0px 80px 50px;
-    margin: 0px auto 30px auto;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding: 30px 80px 0px;
+    margin: 0px auto 0px auto;
 }
 #post .entry-content {
     max-width: 800px;
