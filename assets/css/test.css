@@ -36,26 +36,14 @@ h3 a{
     box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
     max-width: 800px;
 	padding: 20px 80px;
-	margin: 20px auto 10px auto;
+	margin: 20px auto 0px auto;
 	background-color: white;
 	border-radius: 3px;
 }
-
-#post-header:after{
-	background:white;
-    display:block;
-    content: ".";
-    position: absolute;
-    font-size: 0;
-    -webkit-box-shadow: 0 0 1px rgba(34,34,34,0.2);
-    -moz-box-shadow: 0 0 1px rgba(34,34,34,0.2);
-    box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
-    max-width: 800px;
-	padding: 20px 80px;
-	background-color: white;
-	border-radius: 3px;
-
+#post .entry-content{
+	padding-top: 0px;
 }
+
 #post{
 	background-color: white;
 }

@@ -87,3 +87,7 @@ function showHeight(){
 		console.log($("#homecontent").height() + "homecontent");
 		console.log($(".hentry").height() + "hentry");
 }
+
+function shadow(){
+	$("#post-header").after();
+}
