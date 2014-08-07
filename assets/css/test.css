@@ -91,6 +91,8 @@ h3 a{
     padding: 50px 80px;
     margin: 0px auto 30px auto}
 #post .hentry:before{
+	max-width: 800px;
+	width: 640px;
     padding: 0px 80px 0px;
     margin: 0px auto 0px auto;
 }
