@@ -2759,7 +2759,7 @@ body {
     -webkit-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     -moz-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     box-shadow: 0 0 1px rgba(34,34,34,0.2)}
-#post .post-content, #page .entry-content {
+#post .entry-content,#page .entry-content {
     padding: 10px 15px;
     margin: 40px 2px 20px 2px;
     background-color: #fff;
