@@ -40,9 +40,17 @@ h3 a{
 	background-color: white;
 
 }
+#post{
+	background-color: white;
+}
+
 
 #post .hentry:before{
+	background:white;
+    display:block;
+    content:".";
 
+    font-size:0;
 }
 
 .unmoved-header{
