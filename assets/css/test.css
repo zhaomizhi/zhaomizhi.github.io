@@ -31,24 +31,32 @@ h3 a{
 }
 
 #post-header {
-    padding: 10px 15px;
-    margin: 40px 2px 20px 2px;
+    padding: 0px 15px;
+    margin: 40px 2px 0px 2px;
     background-color: #fff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1)}
+
 @media only screen and (min-width: 48em) {
-    #post-header {
-    padding: 20px 30px;
+ #post-header {
+    padding: 0px 30px;
     margin-right: 10px;
-    margin-left: 10px}
+    margin-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+	}
 }
+
 @media only screen and (min-width: 62.5em) {
-    #post-header {
+#post-header {
     max-width: 800px;
     padding: 50px 80px;
-    margin: 50px auto 30px auto}
+    margin: 50px auto 30px auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
 
 
