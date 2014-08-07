@@ -2765,8 +2765,7 @@ body {
     background-color: #fff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px;
-    box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1)}
+    border-radius: 3px;}
 @media only screen and (min-width: 48em) {
     #post .entry-content,#page .entry-content {
     padding: 20px 30px;
