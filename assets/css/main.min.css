@@ -2759,7 +2759,7 @@ body {
     -webkit-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     -moz-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     box-shadow: 0 0 1px rgba(34,34,34,0.2)}
-#post .entry-content,#page .entry-content {
+#page .entry-content {
     padding: 10px 15px;
     margin: 40px 2px 20px 2px;
     background-color: #fff;
@@ -2768,13 +2768,13 @@ body {
     border-radius: 3px;
     box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1)}
 @media only screen and (min-width: 48em) {
-    #post .entry-content,#page .entry-content {
+#page .entry-content {
     padding: 20px 30px;
     margin-right: 10px;
     margin-left: 10px}
 }
 @media only screen and (min-width: 62.5em) {
-    #post .entry-content,#page .entry-content {
+#page .entry-content {
     max-width: 800px;
     padding: 50px 80px;
     margin: 50px auto 30px auto}
