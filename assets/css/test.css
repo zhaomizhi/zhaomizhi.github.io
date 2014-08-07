@@ -74,7 +74,7 @@ article.hentry{
 	height: 40px;
 }
 
-.footer , article header{
+.footer , article header, #post-header{
 text-align: center;}
 
 .footer{
@@ -93,6 +93,5 @@ article::after{
 	width: 15%;
 	height: 30px;
 	/*visibility: hidden;*/
-
 }
 
