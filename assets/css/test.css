@@ -53,6 +53,10 @@ h3 a{
 	margin: 1px auto 0px auto;
 	background-color: white;
 	border-radius: 3px;
+	display: block;
+	box-sizing: border-box;
+	font-size: 0px;
+	position: absolute;
 
 }
 
