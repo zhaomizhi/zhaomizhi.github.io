@@ -15,8 +15,6 @@
 {% if page.image.feature %}
 
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
-  
   <header class="header-title">
       <div class="header-title-wrap">
         {% if page.link %}
@@ -38,7 +36,7 @@
 </div><!-- /.entry-header -->
 {% endif %}
 
-<div id = "maintop">
+
 <div id="main" role="main">
   <article class="hentry">
     <div class="entry-content">
@@ -89,7 +87,7 @@
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrapper -->
-</div>
+
 {% include scripts.html %}          
 
 </body>
