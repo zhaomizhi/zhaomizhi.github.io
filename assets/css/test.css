@@ -30,6 +30,10 @@ h3 a{
 	font-size: 18px;
 }
 
+.post-header{
+	-webkit-box-shadow: 0 0 1px rgba(34,34,34,0.2);
+    -moz-box-shadow: 0 0 1px rgba(34,34,34,0.2);
+    box-shadow: 0 0 1px rgba(34,34,34,0.2)}
 
 .unmoved-header{
 	width: 100%; 

@@ -14,7 +14,6 @@
 
 
 <div id="main" role="main">
-  <div class = "post-content">
        <div id = "post-header" class="header-title-wrap">
         {% if page.link %}
           <h1 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h1>
@@ -47,7 +46,6 @@
         </div><!-- /.social-share -->{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-  </div><!-- post-content -->
     {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
     {% if site.related_posts.size %}
     <div class="read-more">
