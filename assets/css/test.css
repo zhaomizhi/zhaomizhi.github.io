@@ -35,8 +35,14 @@ h3 a{
     -moz-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     box-shadow: 0 0 1px rgba(34,34,34,0.2);
     max-width: 800px;
-	padding: 50px 80px;
-	margin: 50px auto 30px auto;
+	padding: 20px 80px;
+	margin: 20px auto 10px auto;
+	background-color: white;
+
+}
+
+#post .hentry:before{
+
 }
 
 .unmoved-header{
