@@ -2759,13 +2759,14 @@ body {
     -webkit-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     -moz-box-shadow: 0 0 1px rgba(34,34,34,0.2);
     box-shadow: 0 0 1px rgba(34,34,34,0.2)}
-#post .entry-content,#page .entry-content {
+#post .post-content, #page .entry-content {
     padding: 10px 15px;
     margin: 40px 2px 20px 2px;
     background-color: #fff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px;}
+    border-radius: 3px;
+    box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1)}
 @media only screen and (min-width: 48em) {
     #post .entry-content,#page .entry-content {
     padding: 20px 30px;
