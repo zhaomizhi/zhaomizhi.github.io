@@ -12,22 +12,18 @@
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 
-<div class = "homepage">
 
-<h1 id = "fittext1" >{{ site.title }}</h1>
-<img src="{{ site.url }}/images/{{ page.image.feature }}">
-</div>
-<div id = "homecontent" role = "main">
-{{ content }}
+
 
 {% include backbutton.html %}
 
-  <footer class = "footer">
+<div class="footer-wrapper">
+  <footer role="contentinfo">
     {% include footer.html %}
- </footer>
-</div>
-</div>
+  </footer>
+</div><!-- /.footer-wrapper -->
 
+{% include scripts.html %}          
 
 </body>
 </html>

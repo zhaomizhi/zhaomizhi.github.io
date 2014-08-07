@@ -44,22 +44,6 @@ h3 a{
 	padding-top: 0px;
 }
 
-#post-header:after{
-	content: "xx";
-	text-align: center;
-	box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
-    max-width: 800px;
-	padding: 20px 80px;
-	margin: 20px auto 0px auto;
-	background-color: white;
-	border-radius: 3px;
-	display: block;
-	box-sizing: border-box;
-	font-size: 0px;
-	position: absolute;
-
-}
-
 #post{
 	background-color: white;
 }
