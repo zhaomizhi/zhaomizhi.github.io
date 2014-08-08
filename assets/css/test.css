@@ -25,7 +25,7 @@ font-size: 36px;
 h3 a{
 	font-size: 30px;
 }
-.entry-content p, .read-more-content p, .pagination,.footer{
+.entry-content p, .read-more-content p, .pagination,.footer,.footer-wrapper{
 	font-weight: 100;
 	font-size: 18px;
 }
