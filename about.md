@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about
 permalink: /about/
 title: About me
 tags: [Jekyll, theme, modern, minimal, responsive]
