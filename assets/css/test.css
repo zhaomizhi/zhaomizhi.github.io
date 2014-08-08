@@ -195,6 +195,7 @@ text-align: center;}
 
 .entry-title{
 	font-weight: 100;
+	line-height: 200%;
 }
 
 article::after{
@@ -203,5 +204,8 @@ article::after{
 	height: 30px;
 	/*visibility: hidden;*/
 	font-size: 0px;
+}
+.header-title h1 {
+	font-weight: 100;
 }
 

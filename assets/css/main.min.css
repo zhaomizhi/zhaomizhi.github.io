@@ -136,10 +136,10 @@ b,i,strong,em,blockquote,p,q,span,figure,img,h1,h2,header,input,a {
     -o-transition: all .2s ease;
     transition: all .2s ease}
 body {
-    font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #222}
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
  h1 {
     font-size: px;
