@@ -202,7 +202,6 @@ article::after{
 	width: 15%;
 	height: 30px;
 	/*visibility: hidden;*/
+	font-size: 0px;
 }
-
-
 
