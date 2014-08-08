@@ -1,5 +1,5 @@
 ---
-layout: test-index
+layout: post
 permalink: /about/
 title: About me
 tags: [Jekyll, theme, modern, minimal, responsive]
