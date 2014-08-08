@@ -194,7 +194,7 @@ text-align: center;}
 }
 
 .entry-title{
-	font-weight: normal;
+	font-weight: 100;
 }
 
 article::after{
