@@ -81,6 +81,19 @@ h3 a{
     top:-30px;
     position: relative;
 }
+.about-content{
+    max-width: 800px;
+    padding: 20px 80px 50px;
+    margin: 0px auto 30px auto;
+    background-color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+}
+
 }
 
 
@@ -176,16 +189,5 @@ article::after{
 	/*visibility: hidden;*/
 }
 
-.about-content{
 
- 	padding: 20px 15px 0px;
-    margin: 40px 2px 0px 2px;
-    background-color: #fff;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 100;
-	font-size: 20px;
-}
 
