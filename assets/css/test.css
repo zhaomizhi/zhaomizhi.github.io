@@ -77,12 +77,16 @@ h3 a{
 	position: relative;
 	top: -30px;
 	}
-.about-content{
-  max-width: 600px;
+
+}
+@media only screen and (min-width: 30em){
+	.about-content{
+    max-width: 600px;
     padding: 20px 80px 50px;
     margin: 50px auto 30px auto;
 }
 }
+
 
 @media only screen and (min-width: 62.5em) {
 #post-header {
