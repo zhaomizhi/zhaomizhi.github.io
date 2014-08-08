@@ -31,10 +31,9 @@
 <script src="{{ site.url }}/assets/js/jt.js"></script>
 <script>
  jQuery("#fittext1").fitText(2, { minFontSize: '35px', maxFontSize: '90px' });
-$(window).resize{
+$(window).resize(function(){
 	 jQuery("#fittext1").fitText(2, { minFontSize: '35px', maxFontSize: '90px' });
-}
-
+});
 </script>
 <script type="text/javascript" src= "" ></script>
 {% include scripts.html %}
