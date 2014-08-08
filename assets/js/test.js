@@ -11,7 +11,7 @@ $(document).ready(function() {
 			resizePageContent();
 
 			showHeight();
-			fontResponsive();
+			
 			
 		});
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
 			resizeHeader();
 			resizePageContent();
 			showHeight();
-			fontResponsive();
+		
 	
 			
 		});
