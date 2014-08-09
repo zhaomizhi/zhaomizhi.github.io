@@ -158,7 +158,7 @@ h3 a{
 div#homecontent{
 	display: block;
 	height: auto;
-	background-color:  #e8e8e8;
+	background-color:  white;
 	z-index: 2;
 	position: relative;	
 }
@@ -171,11 +171,6 @@ div#homecontent{
 
 .test-index .hentry{
 	background-color: white;
-	box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
-	-webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-
 }
 
 .pagination{
