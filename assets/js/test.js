@@ -57,10 +57,10 @@ function resizeHeader(){
 
 function resizePageContent(){
 	var browserWidth = $("#homecontent").width();
-	if(browserWidth<= 800){
+	if(browserWidth<= 700){
 		$(".hentry").width( '100%' );
 		}else{
-		$(".hentry").width('800px');
+		$(".hentry").width('700px');
 		}
 }
 
