@@ -34,6 +34,12 @@ h3 a{
 	font-size: 14px;
 }
 
+p a{
+	color: #525252;
+}
+p a:hover{
+	color: black;
+}
 
 /*poset-header---remove the bottom space*/
 #post-header ,#post .entry-content {
