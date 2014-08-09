@@ -2,7 +2,7 @@
 	position: fixed;
 	bottom: 30px;
 	right: 50px;
-	height: 45px;
+	height: 48px;
 	width: 48px;
 	background: none;
 	outline: 0;
@@ -25,9 +25,13 @@ font-size: 36px;
 h3 a{
 	font-size: 30px;
 }
-.entry-content p, .read-more-content p, .pagination,.footer,.footer-wrapper{
+.entry-content p, .read-more-content p, .pagination{
 	font-weight: 200;
 	font-size: 18px;
+}
+.footer,.footer-wrapper{
+	font-weight: 200;
+	font-size: 14px;
 }
 
 
