@@ -1,14 +1,18 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-07-26 23:58:28
+title:  "Hello World"
+date:   2014-08-08 20:48:00
 categories: jekyll update
-image:
-  feature: abstract-1.jpg
 comment: true
 share: true
 ---
-This is article from designcode.io website. I use it as page content to test the website layout.
-Last year, Apple completely revamped their design language for the modern users. It is now much simpler, allowing designers to focus on animation and function rather than intricate visual details.
 
-You'll learn how to design for iOS 7. Because the new OS focuses on functional colors, beautiful typography and delightful animations, we'll dive deep into all the techniques and tools that are available to us. You can also find a number of resources and UI templates to help on your journey.
+Here I am, after spend two weeks working on the css and javascript, finally make this website more of my personal style.
+
+The reason why I choose [Jekyll](http://jekyllrb.com) is quite simple. It is easy to deploy and allows me to design, edit the pages as much as I want. Moreover, I do not want to deal with database as I might only post some articles or links. So the solution have to be light-weight and flexible. Jekyll satisfies all my requirements. Besides, a big bounce of using Jekyll is that all the posts are written in markdown.
+
+I wrote some essays in [Markdown](http://en.wikipedia.org/wiki/Markdown) for my business analysis class. It is an easy to write articles without worrying about the fonts, layouts, line-heights... 
+
+Currently, this site is hosted on github pages. The domain name is bought from [hover](https://www.hover.com)  ( highly recommend this domain management website, it is unbelievable easy to configure. ), the framework is Jekyll using [HPSTR](http://mademistakes.com/articles/hpstr-jekyll-theme/) theme. However, I hacked a lot in HPSTR theme, changed almost all the web presentation. I kept the navigator bar, it is quite useful. Hope I could design one with similar functionalities by my own in the future.
+
+Plus, the background image is [Lugu Lake](http://en.wikipedia.org/wiki/Lugu_Lake). Here you could see many crystal water lakes, wooden boats, tradition national minority customs, friendly people. I really have a lovely time when I was there 3 years ago.
