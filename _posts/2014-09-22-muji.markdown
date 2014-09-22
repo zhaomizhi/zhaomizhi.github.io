@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "My kitten - Muji "
+date:   2014-08-08 20:48:00
+categories: jekyll update
+comment: true
+share: true
+---
+I adopted the cutest guy from [The Boston Animal Rescue League ](http://www.arlboston.org/boston-shelter/) last week. It is a great place, they will ask you to visit and play with the cat first and then decided whether you are a suitable pet owner. I think this is really great cause there cats, they are living souls, they are not items. Each cat has his or her "catality". 
+
+Muji is a 6 months, tab grey cat. She like standing in front of my big monitor and watch movement of cursor like this:
+![Muji with monitor]({{ site.url }}/images/muji1.png).
+
+
+I used to think that the there are more people living with dog than cats, because you could always see people walking with dogs, playing with them in yard. There are also lots of customs for dogs in pet shop. However, when I did little search and find a surprised fact. According to The Humans Society of The USA reports, there are 83,3 million owned dogs, and 95.6 million owned cats. 
+
+It is quite unexpected, right?
+ 
+
+
