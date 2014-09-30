@@ -1,3 +1,152 @@
+/*general*/
+
 body{
-	color: grey;
+	margin: 0px;
+	font-weight: 100;
+	font-family: "Helvetica Neue",Helvetica, Verdana,sans-serif
 }
+
+.sections{
+	height:600px;
+	background-color: #fcf6f0;
+	margin: 0px;
+}
+
+.rows{
+	height: 100%;
+	width: 100%;
+}
+
+.contents{
+	height:  480px;
+	padding-top: 20px;
+	margin: 0px auto;
+	width: 100%;
+	max-width: 1000px;
+
+}
+p{
+	font-size: 30px;
+}
+
+/*first content*/
+/*protfolio --- image*/
+.imgdiv{
+	border-radius:100%;
+	width: 15em; height: 15em;
+	cursor: pointer;
+	position: relative;
+	background-color: rgb(255,255,255);
+	overflow: hidden;
+	position: relative;
+	margin:  0 auto;
+	margin-top: 100px;
+	-webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.imgdiv img{
+	border-radius:100%;
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.85;	
+}
+
+
+
+.imgdiv:before, .imgdiv:after{
+	border-radius: 100%;
+	content: "";
+	position: absolute;
+	top:0;
+	left:0;
+	top: 0; left: 0;
+	width: inherit; height: inherit;
+	box-shadow: inset 10.6em 0 0 rgba(221, 219, 214, 0.2),
+				inset 0 10.6em 0 rgba(221, 219, 214, 0.2),
+				inset -10.6em 0 0 rgba(221, 219, 214, 0.2),
+				inset 0 -10.6em 0 rgba(221, 219, 214, 0.2);
+	-webkit-transition: box-shadow 0.75s;
+	   -moz-transition: box-shadow 0.75s;
+		-ms-transition: box-shadow 0.75s;
+			transition: box-shadow 0.75s;
+}
+
+.imgdiv:after {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.imgdiv:hover:before, .imgdiv:hover:after{
+	box-shadow: inset 0.86em 0 0 rgba(113, 221, 198, 0.6),
+				inset 0 0.86em 0 rgba(218, 174, 85, 0.6),
+				inset -0.86em 0 0 rgba(249, 237, 16, 0.6),	
+				inset 0 -0.86em 0 rgba(110, 184, 221, 0.6);
+}
+
+/*self introduction*/
+
+.selfintro{
+	height: 220px;
+	text-align: center;
+}
+
+.selfintro p{
+	padding-top: 20px;
+	font-size: 35px;
+	
+}
+
+/*second content*/
+/*what i do*/
+
+.sec p{
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+}
+
+.sec{
+	margin: 0px auto;
+	width: 100%;
+	max-width: 900px;
+}
+.col{
+	background-color: #EDECEA;
+	float: left;
+	width: 270px;
+	margin-left: 30px;
+	height: 300px;
+}
+
+.title{
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 900px){
+	.sec{
+		max-width: 599px;
+		height: auto;
+	}
+	.col{
+		margin: 10px auto;
+		width: 80%;
+		height: 200px;
+		float: none;
+	}
+
+	.span_1_of_3{
+		margin-bottom:30px;
+	}
+
+}
+
+.clear{
+	clear: both;
+}
+
