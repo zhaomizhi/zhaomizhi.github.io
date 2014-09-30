@@ -19,7 +19,7 @@ html, body{
 div.entry-content img{
 	width: 300px;
 	height: 300px;
-	margin-left: 170px;
+	margin: 0px auto;
 }
 
 h2, h3{font-weight: lighter;}
