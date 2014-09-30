@@ -19,7 +19,6 @@ html, body{
 div.entry-content img{
 	width: 300px;
 	height: 300px;
-	margin: 0px auto;
 }
 
 h2, h3{font-weight: lighter;}
@@ -123,6 +122,10 @@ p a:hover{
     margin: 50px auto 30px auto;
     background-color: white;
  
+}
+
+div.entry-content img{
+	margin-left: 170px;
 }
 
 }
