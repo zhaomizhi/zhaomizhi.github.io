@@ -272,6 +272,9 @@
 	<script type="text/javascript">
 	// Determine whether a nav link is clicked or not.
 
+	if(window.chrome == undefined){
+		console.log("s");
+	}
 	$('.nav-links').click(function() {
    	 	($(".nav-links").not($(this))).removeClass("clicked");
     	$(this).addClass("clicked");
@@ -318,7 +321,7 @@
 
 /*chrome resize function*/
 function resizeMarginForChrome(){
-	if(window.chrome != 'undefined'){
+	if(window.chrome != undefined){
 		width = $(window).width();
 		if (width > 1300 || width == 1300) {	
 			$(".wrap_third").css('margin-left', '130px');
