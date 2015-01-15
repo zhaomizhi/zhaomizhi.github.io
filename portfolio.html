@@ -11,6 +11,7 @@
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
 	<link rel="stylesheet" type="text/css" href="../assets/css/profolio-support.css">
+	<link href='http://fonts.googleapis.com/css?family=Rajdhani:400|Syncopate|Exo:200|Jura:500|Orbitron:500|Play:400' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src = "../assets/js/vendor/jquery-1.9.1.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 
@@ -34,7 +35,7 @@
 		<header> 
 			<div class = "imgdiv"><img src="../images/about1.JPG">
 			</div>
-			<p> 赵潇潇 | Xiaoxiao Zhao</p>
+			<p> <span id = "xiao">趙瀟瀟 </span>| Xiaoxiao Zhao</p>
 			<div class = "clear"></div>
 		</header>
 		<div class = "container">
@@ -248,13 +249,23 @@
 					
 				</div>
 			</div>
+			<div class = "about-me">
+				<h5>Who Am I </h5>
+				<p>
+					Hi, I am Xiaoxiao, currently pursuing a Master degree in Information System at Northeastern University. I plan to be a web developer in my future career. I used to study Philosophy during my undergraduate. It really help me to understand the world and acquire critical thinking. People always ask me, "why you change your major?" I think, philosophy is not career, but it will actually be a significant benefit in almost every carrer. Computer skill could help me build real and cool stuff. Life is full of posibilities, I want to give myself a chance to try. :)
+				</p>
+				<h5>What I do</h5>
+				<p>I build website, like front-end technology. I write HTML, CSS, JavaScript. Sometimes, I get my hands dirty with some backend (PHP, MySQL, Java). I am familiar with jQuery, Bootstrap. Right now, I am learning Sass and Haml. </p>
+				<h5>About this website</h5>
+				<p>I build this website both for exercise my front-end skill and create an online resume. Projects includes my projects did for class. I also did some experiment to exercise CSS3 skill. Photo posted in Photography part were taken by <a href="http://instagram.com/zhao_mi/">myself (@zhao_mi)</a> and my boyfriend<a href="http://instagram.com/kailunwu/"> @Kailun </a>, where you could find us in Instagram. The background images are from NASA Imagery. </p>
+			</div>
 
 			<!-- clear the float for navigation and content -->
 			<div class = "clear"></div>
 		</div>
 		<!-- <div>Contact me</div> -->
 		<div class = "contact-container" ><p>Contact me: zxxaki [at] gmail [dot] com</p> </div>
-		<footer>xiaoxiaozhao.net</footer>
+		<footer><a href="http://xiaoxiaozhao.net" target = '_blank'>xiaoxiaozhao.net</a></footer>
 
 	</div>
 
@@ -298,6 +309,8 @@
 			$(".content-photo").addClass('currentContent');
 		}else if ( value === '#1'){
 			$(".contents-cube").addClass('currentContent');
+		}else if ( value === '#4'){
+			$(".about-me").addClass('currentContent')
 		}
 	});
 
