@@ -877,6 +877,10 @@ footer a{
         height: 800px;
     }
 
+    .clicked{
+        font-size: 14px;
+    }
+
     nav{
         margin:0px auto 0px 20px;
         width: 300px;
@@ -890,6 +894,7 @@ footer a{
     }
     nav a{
         font-size: 12px;
+        z-index: 1000;
     }
 
     header p{
@@ -897,21 +902,28 @@ footer a{
     }
     .content-experiements{
         padding: 0;
-        margin-left: 0px;
         width: 300px;
-        margin: 100px 0px 0px 0px;
+        margin: 0px;
+        margin-top: 50px;
     }
     .contents-cube{
-        margin: 50px auto 0px auto;
+        padding-top: 0;
+        margin: 0px auto 0px auto;
+        margin-top: 50px;
     }
 
     .content-photo{
         width: 300px;
+        padding-top: 0;
+        margin-top: 50px;
+      
     }
 
     .about-me{
-        padding-left: 5px;
-        width: 290px;
+        padding-top: 0;
+        padding-left: 20px;
+        width: 270px;
+        margin-top: 50px;
     }
     
     .about-me h5{
@@ -968,7 +980,7 @@ footer a{
 
     .back p{
         width: 150px;
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .square-data{
