@@ -278,6 +278,7 @@
 	$('.nav-links').click(function() {
    	 	($(".nav-links").not($(this))).removeClass("clicked");
     	$(this).addClass("clicked");
+    	/*$('.clicked').css('font-size', '18px');*/
 }); 
 
 	// Change background image for different navigation link 
@@ -332,6 +333,8 @@ function resizeMarginForChrome(){
 		}
 	}
 }
+
+
 resizeMarginForChrome();
 $(window).resize(function(event) {
 	resizeMarginForChrome();

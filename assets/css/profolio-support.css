@@ -118,6 +118,7 @@ nav{
 
 
 
+
 /*self image*//*self image*/
 .imgdiv{
     border: 1px solid white;
@@ -206,6 +207,11 @@ nav ul{
 nav ul li:not(:first-of-type){
     padding-top: 30px;
 }
+
+.clicked{
+    font-size: 18px;
+}
+
 /*nav ul li:first-of-type{
     font-size: 25px;
 }
@@ -305,8 +311,7 @@ nav a{
     margin: 10px auto 10px auto;
 }
 
-.flop p{
-   
+.flop p{   
     display: block;
     font-size: 12px;
     text-align: left;
